@@ -1,0 +1,38 @@
+
+.top-label-input {
+    width: 100%;
+    border: none !important;
+    border-color: transparent !important;
+    font-family: ProductSans, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #798081;
+    outline: none;
+}
+
+.top-label-input-container {
+    border-radius: 4px;
+    border: solid 1px #929090;
+    padding: 10px;
+    position: relative;
+    margin: 200px
+}
+
+.top-label-input-header {
+    font-family: ProductSans, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+    color: #606566;
+    background-color: #ffffff;
+}
