@@ -5,34 +5,44 @@
     border-color: transparent !important;
     font-family: ProductSans, sans-serif;
     font-size: 12px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.5px;
     color: #798081;
     outline: none;
 }
 
 .top-label-input-container {
-    border-radius: 4px;
+    border-radius: 2px;
     border: solid 1px #929090;
-    padding: 10px;
+    padding: 8px;
     position: relative;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .top-label-input-header {
     font-family: ProductSans, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.5px;
+    font-size: 13px;
+    font-weight: 5px;
     position: absolute;
-    top: -8px;
+    top: -10px;
     left: 10px;
     color: #606566;
     background-color: #ffffff;
+    padding: 0px 3px;
 }
+
+.focus-border {
+    border: solid 1.2px #1890FF;
+}
+
+input:disabled {
+    background: white;
+}
+
+textarea:disabled {
+    background: white;
+}
+
+.textarea {
+    resize: vertical;
+    min-height: 50px; 
+    max-height: 120px;
+} 
